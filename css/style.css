@@ -1,0 +1,32 @@
+* {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #eff5f9;
+}
+.headerMenu{
+	background-color: #00B9ED;	
+	height: 56px;
+	border-bottom: 0px;
+	padding-left: auto;
+	padding-right: auto;
+	width: 100%;
+}
+#wrapper{
+	background-color: #00B9ED;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.logo {
+	background-color: #00B9ED;
+	width: 125px;
+}
+.logo img {
+	background-color: #00B9ED;
+	width: 150px;
+	height: 38px;
+}
