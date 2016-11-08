@@ -5,41 +5,49 @@
 	padding: 0px;
 	background-color: #eff5f9;
 }
+
 .headerMenu{
-	background-color: #00B9ED;	
+	background-image: url(../img/menu_bg.png);	
 	height: 56px;
 	border-bottom: 0px;
 	padding-left: auto;
 	padding-right: auto;
 	width: 100%;
 }
+
 #wrapper{
-	background-color: #00B9ED;
+	background-image: url(../img/menu_bg.png);	
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+
 .logo {
-	background-color: #00B9ED;
+	background-image: url(../img/menu_bg.png);	
 	width: 125px;
 }
+
 .logo img {
-	background-color: #00B9ED;
+	background-image: url(../img/menu_bg.png);	
 	width: 150px;
 	height: 38px;
+	padding-top: 5px;
 }
+
 .search_box {
+	background-image: url(../img/menu_bg.png); 
 	position: absolute;
 	top: 13px;
 	margin-left: 135px;
 }
+
 #search input[type="text"] { 
 	background: url(../img/search-white.png) no-repeat 10px 6px #267bb6; 
 	outline: none; 
 	border: 0 none; 
-	font: bold 12px Garamond, Helvetica, Sans-serif; 
+	font: bold 12px Arial, Helvetica, Sans-serif; 
 	width: 350px; 
 	padding: 6px 15px 6px 35px; 
 	text-shadow: 0 2px 2px rgba(0,0,0,0.3); 
@@ -51,6 +59,7 @@
 	-o-transition: all 0.7s ease 0s; 
 	transition: all 0.7s ease 0s; 
 } 
+
 #search input[type="text"]:focus { 
 	background: url(../img/search-icon.png) no-repeat 10px 6px #fcfcfc; 
 	color: #6a6f75; width: 350px; 
@@ -58,4 +67,57 @@
 	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(0,0,0,0.9) inset; 
 	box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(0,0,0,0.9) inset; 
 	text-shadow: 0 2px 3px rgba(0,0,0,0.1); 
-	}﻿
+}﻿
+
+@media screen and (max-width: 1280px) {}
+#menu {
+	background-image: url(../img/menu_bg.png);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height:37px;
+	padding-top: 19px;
+	margin-right: 4%;
+}
+}
+
+@media screen and (min-width: 1280px) {}
+#menu {
+	background-image: url(../img/menu_bg.png);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height:37px;
+	padding-top: 19px;
+	margin-right: 10%;
+}
+}
+
+@media screen and (min-width: 1920px) {}
+#menu {
+	background-image: url(../img/menu_bg.png);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height:37px;
+	padding-top: 19px;
+	margin-right: 25%;
+}
+}
+
+#menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	background-image: url(../img/menu_bg.png);
+	background-repeat: no-repeat;
+	padding-top: 19px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#menu a:hover {
+	background-image: url(../img/menu_bg_hover_mouse_over.png);
+	
+}
