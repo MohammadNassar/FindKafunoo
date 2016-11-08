@@ -36,7 +36,7 @@
 	margin-left: 135px;
 }
 #search input[type="text"] { 
-	background: url(insert your photo) no-repeat 10px 6px #267bb6; 
+	background: url(../img/search-white.png) no-repeat 10px 6px #267bb6; 
 	outline: none; 
 	border: 0 none; 
 	font: bold 12px Garamond, Helvetica, Sans-serif; 
@@ -52,7 +52,7 @@
 	transition: all 0.7s ease 0s; 
 } 
 #search input[type="text"]:focus { 
-	background: url(insert your photo) no-repeat 10px 6px #fcfcfc; 
+	background: url(../img/search-icon.png) no-repeat 10px 6px #fcfcfc; 
 	color: #6a6f75; width: 350px; 
 	-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(0,0,0,0.9) inset; 
 	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(0,0,0,0.9) inset; 
